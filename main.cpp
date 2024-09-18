@@ -21,6 +21,7 @@ int main()
         atlag += b[i]; //";" hiany
     }
     atlag /= N_ELEMENTS;
-    std::cout << "Atlag: " << atlag << std::endl;
+    std::cout << "Atlag az alabbi erteket adja vissza: " << atlag << std::endl;
+
     return 0;
 }
